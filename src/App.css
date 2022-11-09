@@ -6,6 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+#root{
+  font-family: 'Rubik', sans-serif;
+  
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
