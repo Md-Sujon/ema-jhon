@@ -12,6 +12,7 @@ const Shop = () => {
 
   const handleAddToCart = (SelectProduct) =>{
     // cart.push(product)
+    //Hello....
     let newCart = [];
     const Exist = cart.find(product  => product.id ===SelectProduct.id)
     if(!Exist){
@@ -62,7 +63,7 @@ setCart(saveCart)
       </div>
 
       <div className="cart_container">
-        <Cart cart={cart}/>
+        <Cart cart={cart}/>;
       </div>
     </div>
   );
